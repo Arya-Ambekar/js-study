@@ -46,3 +46,37 @@ const myFunction = function(){
 console.log(typeof myFunction);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+
+
+
+// ---------------------------------Memories---------------------------------
+
+// Stack (Primitive), Heap (Non-Primitive)
+
+let myCountryName = "India"
+
+let anotherName = myCountryName
+anotherName = "Bharat"
+
+console.log(anotherName)
+console.log(myCountryName)
+
+
+let userOne = {
+    email: "user1@gm.com",
+    phone: 4578525645
+}
+
+let userTwo = userOne
+
+console.log(userOne)
+console.log(userTwo)
+
+
+userTwo.email = "abcd@hcdotcom"
+
+console.log(userOne)
+console.log(userTwo)
+
