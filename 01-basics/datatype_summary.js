@@ -51,7 +51,7 @@ console.log(typeof myFunction);
 
 
 
-// ---------------------------------Memories---------------------------------
+// ---------------------------------Memory Type---------------------------------
 
 // Stack (Primitive), Heap (Non-Primitive)
 
