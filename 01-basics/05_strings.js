@@ -35,7 +35,7 @@ const newString3 = "   Arya   "
 // console.log(newString3.trim())
 
 
-const url = "https://hitesh.com/hitesh%20choudhary"
+const url = "https://hitesh.com/arya%20ambekar"
 
 //console.log(url.replace('%20', '-'))
 
