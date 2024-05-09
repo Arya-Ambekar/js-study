@@ -7,10 +7,10 @@ const repoCount = 5
 // console.log(name1 + repoCount + "value");
 
 
-/*----------------- Concatenating strings using 'Template Literals' -----------------*/
+/*----------------- String Interpolation -----------------*/
 
 
-// console.log(`Hello! My name is ${name1} and my repo count is ${repoCount}`);     // also known as template strings
+// console.log(`Hello! My name is ${name1} and my repo count is ${repoCount}`);     // Concatenating strings using 'Template Literals', also known as 'template strings'
 
 
 /*----------------- String Object -----------------*/
