@@ -12,12 +12,19 @@ const user = {
 // user.welcomeMessage()
 
 
-// console.log(this)
+// console.log(this)  // run this on browser too   ....... Global object of browser -> window object
+
+function chai() {
+    let username = "Arya"
+    console.log(this);
+}
+chai()
+
+
 
 // function newUser() {
 //     const username = "John"
-//     console.log(`New user is ${username}`);
-//     console.log(`New user is ${this.username}`);
+//     console.log(`New user is ${this.username}`);  // this.username works only in objects ... they don't work in functions
 // }
 
 // newUser()
@@ -55,9 +62,10 @@ const user = {
 const addTwo = (num1, num2) => ({username: "hitesh"})
 
 
-console.log(addTwo(3, 4))
+// console.log(addTwo(3, 4))
 
 
 // const myArray = [2, 5, 3, 7, 8]
 
 // myArray.forEach()
+
