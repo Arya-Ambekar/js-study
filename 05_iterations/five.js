@@ -13,9 +13,9 @@ array.forEach(item => {
 //     console.log(item);
 // }
 
-// coding.forEach(printMe)
+// array.forEach(printMe)
 
-// coding.forEach( (item, index, arr)=> {
+// array.forEach( (item, index, arr)=> {
 //     console.log(item, index, arr);
 // } )
 
